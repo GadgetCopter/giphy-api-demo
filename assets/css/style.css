@@ -1,0 +1,90 @@
+/* * { margin: 0; padding : 0; } */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #efcece;
+    font-family: 'Jura', sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #526350;
+    display: grid;
+    margin-top: 0;
+    box-shadow: 0px 3px 5px rgba(100, 100, 100, 0.49);
+}
+
+h1 {
+    vertical-align: bottom;
+    font-size: 100px;
+    margin: 0 auto;
+    font-family: 'Ruslan Display', cursive;
+}
+
+.button-container {
+    width:  100%;
+}
+
+button {
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: #1c1c1c;
+    border: none;
+    color: aliceblue; 
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.input-container {
+    width: 25%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+#gif-search {
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+}
+
+#submit-search {
+    height: 100%;
+    width: 25%;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+
+#gif-list {
+   width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    width: 85%;
+    margin-top: 100px;
+
+}
+
+#gifs-here {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.listed-gif {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
