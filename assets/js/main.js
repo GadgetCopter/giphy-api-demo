@@ -22,6 +22,7 @@ $("button").on("click", function(){
     
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + clickedButton + "&api_key=nfP5ZEBKqSO1ktD3emBG9zdtttbtCiWM&limit=10"
     
+
     $.ajax({
         url: queryURL,
         method: "GET"
